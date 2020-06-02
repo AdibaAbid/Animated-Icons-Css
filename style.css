@@ -148,11 +148,12 @@ img {
     color: darkgrey;
     bottom: -10px;
     position: relative;
-    animation-name: fade;
+    /* animation-name: fade;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: normal;
-    animation-delay: 1s;
+    animation-delay: 1s; */
+    animation: fade 8s linear infinite;
 }
 
 @keyframes fade {
